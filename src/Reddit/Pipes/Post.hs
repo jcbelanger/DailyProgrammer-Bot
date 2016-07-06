@@ -4,9 +4,10 @@ module Reddit.Pipes.Post
     ) where
 
 import           Pipes
+import           Pipes.Prelude        as Pipes
 import           Reddit
-import           Reddit.Pipes.Listing
 import           Reddit.Actions.Post
+import           Reddit.Pipes.Listing
 import           Reddit.Types.Listing
 
 getPostsAfterP
